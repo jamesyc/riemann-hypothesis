@@ -1,6 +1,6 @@
 name = "riemann2"
 srcDir = "formalization"
-defaultTargets = ["Challenge"]
+defaultTargets = ["Challenge", "Solution", "Utilities"]
 
 [[require]]
 name = "mathlib"
@@ -9,3 +9,11 @@ rev = "fc4f59e577feb1a4956671bc04ac18aaaf8cd842"
 
 [[lean_lib]]
 name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"
+globs = ["Solution", "Riemann.+"]
+
+[[lean_lib]]
+name = "Utilities"
+globs = ["Utilities", "Utilities.+"]

@@ -1,2 +1,4 @@
 .lake/
 /workspace/
+.DS_Store
+/AGENTS.md
